@@ -9,7 +9,7 @@ also It contains useful features for recyclerview.
 
 Simple usage
 ```java
-adapter = new JoRecyclerAdapter<>(new JoRecyclerAdapter.Params()
+adapter = new JoRecyclerAdapter<Integer>(new JoRecyclerAdapter.Params()
                 .setRecyclerView(rcv)
                 .setItemViewHolderCls(BlankVHolder.class)
         );
@@ -50,7 +50,7 @@ public class BlankVHolder extends JoViewHolder<String> {
 If you need set header view or footer view item, Check it below.
 Header and Footer also follows JoViewHolder 
 ```java
-adapter = new JoRecyclerAdapter<>(new JoRecyclerAdapter.Params()
+adapter = new JoRecyclerAdapter<String>(new JoRecyclerAdapter.Params()
                 .setRecyclerView(rcv)
                 .addParam("TYPE", type)
                 .setHeaderViewHolderCls(BlankVHolder.class)
