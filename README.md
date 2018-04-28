@@ -1,4 +1,4 @@
-Butter Knife
+JoRecyclerViewAdapter
 ============
 
 This adapter is for the RecyclerView to easily manage headers, putters, and items.
