@@ -70,7 +70,7 @@ adapter.addFooterItem("SOMEFOOTER DATA");
 rcv.setAdapter(adapter);
 ```
 
-Use QuickReture pattern in RecyclerView
+Use QuickReturn pattern in RecyclerView
 ```java
 Prepare a single view for QuickReturn in the activity.
 View vQuickReturn = ...;
